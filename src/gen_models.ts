@@ -37,7 +37,7 @@ const generateValidateImports = (foreignKeyFieldNames) => {
 		imports += "\n";
 	});
 
-	imports += `} from '@app/api/modelValidators';\n`;
+	imports += `} from '@app-marble-api-model-generator/api/modelValidators';\n`;
 
 	return imports;
 };
